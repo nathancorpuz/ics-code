@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+#navbar {
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  align-items: center;
+  display: flex;
+}
+
+#navbar img {
+  height: 100%;
+}
+
+#navbar a {
+  background-color: blue;
+  color: white;
+  margin: 0.16em 0.16em 0.16em 0.16em;
+  padding: 0.64em 0.64em 0.64em 0.64em;
+  text-decoration-line: none;
+}
+
+.pic {
+  height: 100%;
+}
+
+
+#sidebar {
+  float: left;
+  width: 16%;
+  background-color: black;
+}
+
+#editpanel {
+  border-left-width: 1px;
+  border-left-color: white;
+  border-left-style: solid;
+  width: 80%;
+  float: left;
+  color: white;
+}
+
+input, textarea {
+  background-color: black;
+}
